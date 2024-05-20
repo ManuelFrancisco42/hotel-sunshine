@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Free Hotel app offers the best deals on hotels, flights, car rentals, and tours."
+    />
+    <meta
+      name="keywords"
+      content="hotel, booking, travel, flights, car rental, tours"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:300,400,600"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <!-- Title -->
+    <title>hotel booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="overview">
+        <h1 class="overview__heading">Hotel</h1>
+
+        <div class="overview__stars">
+          <svg class="overview__icon-star">
+            <use xlink:href="./images/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use xlink:href="./images/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use xlink:href="./images/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use xlink:href="./images/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview__icon-star">
+            <use xlink:href="./images/sprite.svg#icon-star"></use>
+          </svg>
+        </div>
+
+        <div class="overview__location">
+          <svg class="overview__icon-location">
+            <use xlink:href="./images/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <button class="btn-inline">Andreziew-Bouthéon, St-Etienne</button>
+        </div>
+
+        <div class="overview__rating">
+          <div class="overview__rating-average">6</div>
+          <div class="overview__rating-count">1429 votes</div>
+        </div>
+      </div>
+
+      <header class="header">
+        <img src="./images/hotel-logo.png" alt="hotel logo" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels..."
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="./images/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./images/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">1</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./images/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">3</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="./images/user-image-1.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Florien</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="./images/hotel-image-1.jpg"
+                alt="Photo of hotel 1"
+                class="gallery__photo"
+              />
+              <!-- Photo credit -->
+              <p class="photo-credit">
+                Photo by
+                <a
+                  href="https://unsplash.com/@bilderboken?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Bilderboken</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/person-in-swimming-pool-during-daytime-rlwE8f8anOc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Unsplash</a
+                >
+              </p>
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="./images/hotel-image-2.jpg"
+                alt="Photo of hotel 2"
+                class="gallery__photo"
+              />
+              <!-- Photo credit -->
+              <p class="photo-credit">
+                Photo by
+                <a
+                  href="https://unsplash.com/@himashiyan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Mky Moody</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/white-bed-linen-on-bed-AUF6Gl4wwzA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Unsplash</a
+                >
+              </p>
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="./images/hotel-image-3.jpg"
+                alt="Photo of hotel 3"
+                class="gallery__photo"
+              />
+              <!-- Photo credit -->
+              <p class="photo-credit">
+                Photo by
+                <a
+                  href="https://unsplash.com/@3dottawa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Point3D Commercial Imaging Ltd.</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/white-bed-linen-on-bed-5BV56SdvLmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Unsplash</a
+                >
+              </p>
+            </figure>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Bienvenue à l'Hôtel Sunshine, où le confort rencontre la
+                commodité. Situé au cœur de la ville, notre hôtel offre des
+                équipements modernes et un service exceptionnel. Profitez de nos
+                chambres spacieuses, du Wi-Fi gratuit et du petit-déjeuner
+                offert. Détendez-vous dans notre piscine sur le toit ou restez
+                actif dans notre centre de fitness à la pointe de la
+                technologie.
+              </p>
+              <p class="paragraph">
+                Que vous voyagiez pour affaires ou pour le plaisir, l'Hôtel
+                Sunshine est votre parfait chez-vous loin de chez vous.
+              </p>
+              <div class="list">
+                <div class="list__item">
+                  <img
+                    src="./images/hotel-image-4.jpg"
+                    alt="hotel-image-4.jpg Image"
+                    width="100%"
+                    height="auto"
+                  />
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@ibrahimmushan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Ibrahim Mushan</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/blue-swimming-pool-near-green-palm-trees-during-daytime-6HaZW9T-UPA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p>Close to the beach</p>
+                </div>
+                <div class="list__item">
+                  <img
+                    src="./images/hotel-image-1.jpg"
+                    alt="hotel-image-1 Image"
+                    width="100%"
+                    height="auto"
+                  />
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@viveksphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Vivek Doshi</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/airliner-on-runway-0lHWmzLY55Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p>changer ce foto</p>
+                </div>
+                <div class="list__item">
+                  <img
+                    src="./images/hotel-image-5.jpg"
+                    alt="hotel-image-5 Image"
+                    width="100%"
+                    height="auto"
+                  />
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@heftiba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Toa Heftiba</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/woman-lying-on-bed-white-holding-board-bcLE7reXFLM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p>Breakfast included</p>
+                </div>
+                <div class="list__item">
+                  <img
+                    src="./images/hotel-image-6.jpg"
+                    alt="Beach Image"
+                    width="100%"
+                    height="auto"
+                  />
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@viveksphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Vivek Doshi</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/airliner-on-runway-0lHWmzLY55Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p>Free wifi in all rooms</p>
+                </div>
+              </div>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Lucy and 3 other friends recommend this hotel.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="./images/user-image-3.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./images/user-image-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./images/user-image-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./images/user-image-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+
+                <!-- Credit List -->
+                <div class="credits-lis">
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@batelstudios?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Batel Studio</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/woman-holding-her-hips-while-smiling-ttSRjiYG_WM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@slavromanov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Slav Romanov</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/smiling-woman-sitting-on-grass-during-daytime-BrEAp01_m5w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@linkedinsalesnavigator?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >LinkedIn Sales Solutions</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/man-standing-beside-wall-pAtA8xe_iVM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@michaeldam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Michael Dam</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/closeup-photography-of-woman-smiling-mEZ3PoFGs_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@juricakoletic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Jurica Koletić</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/man-wearing-henley-top-portrait-7YVZYZeITc8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@phlmrtn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Philip Martin</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/man-standing-near-balcony-5aGUyCW_PJw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@cikstefan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Štefan Štefančík</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/smiling-woman-wearing-white-and-black-pinstriped-collared-top-QXevDflbl8A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      >Unsplash</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </main>
+
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./images/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use
+                    xlink:href="./images/sprite.svg#icon-aircraft-take-off"
+                  ></use>
+                </svg>
+                <span>Vol</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./images/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Excursions</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./images/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Location de Voiture</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <footer>
+        <div class="legal">&copy; 2023 by hotel. All rights reserved.</div>
+      </footer>
+    </div>
+  </body>
+</html>
