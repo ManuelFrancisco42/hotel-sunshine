@@ -13,7 +13,8 @@
       content="hotel, booking, travel, flights, car rental, tours"
     />
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts /icon awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://fonts.googleapis.com/css?family=Inter:300,400,600,700"
       rel="stylesheet"
@@ -35,7 +36,11 @@
           Hotel <br />
           Sunshine
         </h1>
-
+<!-- 
+=============
+Overview stars
+=============  
+ -->
         <div class="overview__stars">
           <svg class="overview__icon-star">
             <use xlink:href="./images/sprite.svg#icon-star"></use>
@@ -72,7 +77,11 @@
           <div class="overview__rating-count">5846 votes</div>
         </div>
       </div>
-
+<!-- 
+=============
+Header
+=============  
+ -->
       <header class="header">
         <img src="./images/hotel-logo.png" alt="hotel logo" class="logo" />
 
@@ -104,7 +113,11 @@
           </div>
         </nav>
       </header>
-
+<!-- 
+=============
+Content
+=============  
+ -->
       <div class="content">
         <main class="hotel-view">
           <div class="gallery">
@@ -130,7 +143,11 @@
               />
             </figure>
           </div>
-
+<!-- 
+=============
+Detail
+=============  
+ -->
           <div class="detail">
             <div class="description">
               <p class="paragraph">
@@ -202,6 +219,11 @@
                   </div>
                 </div>
               </div>
+<!-- 
+=============
+Recommend
+=============  
+ -->
               <div class="recommend">
                 <p class="recommend__count">
                   Témoignage
@@ -229,11 +251,11 @@
                   />
                 </div>
 
-                <!--
-                  ============
-                   Credit List 
-                  ============
-                -->
+<!--
+  ============
+    Credit List 
+  ============
+-->
                 <div class="credits-list">
                   <p class="disclaim__credit">
                     Tout le images utilisee dans ce site sont pris par les
@@ -424,47 +446,49 @@
             </div>
           </div>
         </main>
-
+<!-- 
+=============
+Sidebar
+=============  
+ -->
         <nav class="sidebar">
           <ul class="side-nav">
             <li class="side-nav__item side-nav__item--active">
               <a href="#" class="side-nav__link">
-                <svg class="side-nav__icon">
-                  <use xlink:href="./images/sprite.svg#icon-home"></use>
-                </svg>
+                <i class="fa fa-home side-nav__icon" aria-hidden="true"></i>
+
                 <span>Hotel</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
-                <svg class="side-nav__icon">
-                  <use
-                    xlink:href="./images/sprite.svg#icon-aircraft-take-off"
-                  ></use>
-                </svg>
+                <i class="fa fa-fighter-jet side-nav__icon" aria-hidden="true"></i>
+
                 <span>Vol</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
-                <svg class="side-nav__icon">
-                  <use xlink:href="./images/sprite.svg#icon-map"></use>
-                </svg>
+                <i class="fa fa-suitcase side-nav__icon" aria-hidden="true"></i>
+               
                 <span>Excursions</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
-                <svg class="side-nav__icon">
-                  <use xlink:href="./images/sprite.svg#icon-key"></use>
-                </svg>
+                <i class="fa fa-car side-nav__icon" aria-hidden="true"></i>
+            
                 <span>Location de Voiture</span>
               </a>
             </li>
           </ul>
         </nav>
       </div>
-
+<!-- 
+=============
+Footer
+=============  
+ -->
       <footer class="footer">
         <div class="footer__content">
           <p>&copy; 2024 Hotel Sunshine. All rights reserved.</p>
