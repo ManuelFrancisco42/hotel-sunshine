@@ -15,27 +15,26 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Inter:300,400,600"
+      href="https://fonts.googleapis.com/css?family=Inter:300,400,600,700"
       rel="stylesheet"
     />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-      rel="stylesheet"
-    />
     <!-- Main CSS -->
 
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media-queries.css" />
     <!-- Title -->
-    <title>hotel booking app</title>
+    <title>Hotel Sunshine | Booking app</title>
   </head>
   <body>
     <div class="container">
       <div class="overview">
-        <h1 class="overview__heading">Hotel</h1>
+        <h1 class="overview__heading">
+          Hotel <br />
+          Sunshine
+        </h1>
 
         <div class="overview__stars">
           <svg class="overview__icon-star">
@@ -59,12 +58,18 @@
           <svg class="overview__icon-location">
             <use xlink:href="./images/sprite.svg#icon-location-pin"></use>
           </svg>
-          <button class="btn-inline">Andreziew-Bouthéon, St-Etienne</button>
+          <a
+            class="btn-inline"
+            href="https://www.google.com/maps/place/11+Av.+du+Parc,+42160+Andr%C3%A9zieux-Bouth%C3%A9on/@45.5253669,4.2575033,19z/data=!3m1!4b1!4m15!1m8!3m7!1s0x47f44cb6be8c2db3:0x4b894db818403b13!2s42160+Andr%C3%A9zieux-Bouth%C3%A9on!3b1!8m2!3d45.5264318!4d4.2620909!16zL20vMGRwOWY4!3m5!1s0x47f44cb5cbf4fcbd:0xf3994621c4b75587!8m2!3d45.525366!4d4.258147!16s%2Fg%2F11pvb1cmnm?entry=ttu"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Andreziew-Bouthéon, St. Etienne</a
+          >
         </div>
 
         <div class="overview__rating">
-          <div class="overview__rating-average">6</div>
-          <div class="overview__rating-count">1429 votes</div>
+          <div class="overview__rating-average">10</div>
+          <div class="overview__rating-count">5846 votes</div>
         </div>
       </div>
 
@@ -97,14 +102,6 @@
             </svg>
             <span class="user-nav__notification">3</span>
           </div>
-          <div class="user-nav__user">
-            <img
-              src="./images/user-image-1.jpg"
-              alt="User photo"
-              class="user-nav__user-photo"
-            />
-            <span class="user-nav__user-name">Florien</span>
-          </div>
         </nav>
       </header>
 
@@ -117,23 +114,6 @@
                 alt="Photo of hotel 1"
                 class="gallery__photo"
               />
-              <!-- Photo credit -->
-              <p class="photo-credit">
-                Photo by
-                <a
-                  href="https://unsplash.com/@bilderboken?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Bilderboken</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/person-in-swimming-pool-during-daytime-rlwE8f8anOc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Unsplash</a
-                >
-              </p>
             </figure>
             <figure class="gallery__item">
               <img
@@ -141,23 +121,6 @@
                 alt="Photo of hotel 2"
                 class="gallery__photo"
               />
-              <!-- Photo credit -->
-              <p class="photo-credit">
-                Photo by
-                <a
-                  href="https://unsplash.com/@himashiyan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Mky Moody</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/white-bed-linen-on-bed-AUF6Gl4wwzA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Unsplash</a
-                >
-              </p>
             </figure>
             <figure class="gallery__item">
               <img
@@ -165,23 +128,6 @@
                 alt="Photo of hotel 3"
                 class="gallery__photo"
               />
-              <!-- Photo credit -->
-              <p class="photo-credit">
-                Photo by
-                <a
-                  href="https://unsplash.com/@3dottawa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Point3D Commercial Imaging Ltd.</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/white-bed-linen-on-bed-5BV56SdvLmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Unsplash</a
-                >
-              </p>
             </figure>
           </div>
 
@@ -205,101 +151,55 @@
                   <img
                     src="./images/hotel-image-4.jpg"
                     alt="hotel-image-4.jpg Image"
-                    width="100%"
-                    height="auto"
                   />
-                  <p class="photo-credit">
-                    Photo by
-                    <a
-                      href="https://unsplash.com/@ibrahimmushan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Ibrahim Mushan</a
-                    >
-                    on
-                    <a
-                      href="https://unsplash.com/photos/blue-swimming-pool-near-green-palm-trees-during-daytime-6HaZW9T-UPA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Unsplash</a
-                    >
-                  </p>
-                  <p>Close to the beach</p>
+                  <div class="list__item-container">
+                    <h3>Close to the beach</h3>
+                    <p class="list__item-paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Doloremque praesentium reiciendis laboriosam ducimus quo!
+                      Ipsa iusto dolorem .
+                    </p>
+                  </div>
                 </div>
                 <div class="list__item">
                   <img
                     src="./images/hotel-image-1.jpg"
                     alt="hotel-image-1 Image"
-                    width="100%"
-                    height="auto"
                   />
-                  <p class="photo-credit">
-                    Photo by
-                    <a
-                      href="https://unsplash.com/@viveksphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Vivek Doshi</a
-                    >
-                    on
-                    <a
-                      href="https://unsplash.com/photos/airliner-on-runway-0lHWmzLY55Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Unsplash</a
-                    >
-                  </p>
-                  <p>changer ce foto</p>
+                  <div class="list__item-container">
+                    <h3>changer ce foto</h3>
+                    <p class="list__item-paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Non, error iure? Optio aliquam dolore, reprehenderit nihil
+                      rem est! Vero laudantium hic quaerat tenetur.
+                    </p>
+                  </div>
                 </div>
                 <div class="list__item">
                   <img
                     src="./images/hotel-image-5.jpg"
                     alt="hotel-image-5 Image"
-                    width="100%"
-                    height="auto"
                   />
-                  <p class="photo-credit">
-                    Photo by
-                    <a
-                      href="https://unsplash.com/@heftiba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Toa Heftiba</a
-                    >
-                    on
-                    <a
-                      href="https://unsplash.com/photos/woman-lying-on-bed-white-holding-board-bcLE7reXFLM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Unsplash</a
-                    >
-                  </p>
-                  <p>Breakfast included</p>
+                  <div class="list__item-container">
+                    <h3>Breakfast included</h3>
+                    <p class="list__item-paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Atque dolores magni omnis sequi laborum ipsa suscipit et
+                      maxime ad hic, asperiores libero, eveniet consequuntur
+                      voluptas.
+                    </p>
+                  </div>
                 </div>
                 <div class="list__item">
-                  <img
-                    src="./images/hotel-image-6.jpg"
-                    alt="Beach Image"
-                    width="100%"
-                    height="auto"
-                  />
-                  <p class="photo-credit">
-                    Photo by
-                    <a
-                      href="https://unsplash.com/@viveksphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Vivek Doshi</a
-                    >
-                    on
-                    <a
-                      href="https://unsplash.com/photos/airliner-on-runway-0lHWmzLY55Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Unsplash</a
-                    >
-                  </p>
-                  <p>Free wifi in all rooms</p>
+                  <img src="./images/hotel-image-6.jpg" alt="Beach Image" />
+                  <div class="list__item-container">
+                    <h3>Free wifi in all rooms</h3>
+                    <p class="list__item-paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dolorum, odio vitae natus laborum necessitatibus beatae
+                      blanditiis aut maxime a consequatur fugit animi libero.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="recommend">
@@ -329,8 +229,112 @@
                   />
                 </div>
 
-                <!-- Credit List -->
-                <div class="credits-lis">
+                <!--
+                  ============
+                   Credit List 
+                  ============
+                -->
+                <div class="credits-list">
+                  <p class="disclaim__credit">
+                    Tout le images utilisee dans ce site sont pris par les
+                    photograps de unsplash
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@bilderboken?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Bilderboken</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/person-in-swimming-pool-during-daytime-rlwE8f8anOc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@himashiyan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Mky Moody</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/white-bed-linen-on-bed-AUF6Gl4wwzA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@3dottawa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Point3D Commercial Imaging Ltd.</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/white-bed-linen-on-bed-5BV56SdvLmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@ibrahimmushan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Ibrahim Mushan</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/blue-swimming-pool-near-green-palm-trees-during-daytime-6HaZW9T-UPA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@heftiba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Toa Heftiba</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/woman-lying-on-bed-white-holding-board-bcLE7reXFLM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
+                  <p class="photo-credit">
+                    Photo by
+                    <a
+                      href="https://unsplash.com/@viveksphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Vivek Doshi</a
+                    >
+                    on
+                    <a
+                      href="https://unsplash.com/photos/airliner-on-runway-0lHWmzLY55Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Unsplash</a
+                    >
+                  </p>
                   <p class="photo-credit">
                     Photo by
                     <a
@@ -391,7 +395,6 @@
                       >Unsplash</a
                     >
                   </p>
-
                   <p class="photo-credit">
                     Photo by
                     <a
@@ -419,7 +422,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </main>
 
@@ -462,8 +464,40 @@
           </ul>
         </nav>
       </div>
-      <footer>
-        <div class="legal">&copy; 2023 by hotel. All rights reserved.</div>
+
+      <footer class="footer">
+        <div class="footer__content">
+          <p>&copy; 2024 Hotel Sunshine. All rights reserved.</p>
+          <p>
+            123 Main Street, St-Etienne, France | Phone: +33 4 77 12 34 56 |
+            Email: info@hotelsunshine.com
+          </p>
+          <p>
+            Follow us on
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__link"
+              >Facebook</a
+            >,
+            <a
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__link"
+            >
+              X</a
+            >, and
+            <a
+              href="https://www.instagram.com/accounts/login/?next=%2Fyourinstagramprofile%2F&source=desktop_nav"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__link"
+              >Instagram</a
+            >
+          </p>
+        </div>
       </footer>
     </div>
   </body>
